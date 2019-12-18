@@ -21,7 +21,7 @@ setup.exe /configure office-vol.xml
 
 ```
 cd /d "%ProgramFiles%\Microsoft Office\Office16"
-cscript ospp.vbs /sethst:KMS_SERVER
+cscript ospp.vbs /sethst:kms.chinancce.com
 cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
 cscript ospp.vbs /act
 ```
